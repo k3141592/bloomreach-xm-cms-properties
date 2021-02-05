@@ -1,0 +1,6 @@
+site: brxmproperties
+group: brxmproperties
+project: brxmproperties
+module:
+  name: brxmproperties-repository-data-site-development
+  after: brxmproperties-repository-data-site

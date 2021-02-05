@@ -1,0 +1,5 @@
+definitions:
+  namespace:
+    brxmproperties:
+      uri: http://www.brxmproperties.com/brxmproperties/nt/1.0
+      cnd: namespaces/brxmproperties.cnd

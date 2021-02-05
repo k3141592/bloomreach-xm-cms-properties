@@ -1,0 +1,6 @@
+group: 
+  name: brxmproperties
+  after: hippo-cms
+project: brxmproperties
+module:
+  name: brxmproperties-repository-data-site
