@@ -338,6 +338,7 @@
               </deployables>
               <container>
                 <systemProperties>
+                  <application.properties>${project.basedir}/conf/application.properties</application.properties>
                   <log4j.configurationFile>${project.basedir}/conf/log4j2-dev.xml</log4j.configurationFile>
                   <!-- enables auto export and web files watch: -->
                   <project.basedir>${project.basedir}</project.basedir>
