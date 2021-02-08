@@ -1,3 +1,18 @@
+Introduction
+============
+Bloomreach XM example project to demonstrate how to use externalized property values in a daemon module.
+Documentation about daemon modules can be found here: https://documentation.bloomreach.com/14/library/concepts/hippo-services/repository-managed-components.html
+
+This setup takes the Bloomreach Cloud approach into account, see: https://documentation.bloomreach.com/14/bloomreach-cloud/reference-documentation/set-environment-configuration-properties.html
+Via a Java system property "application.properties" the path to the properties file is set.
+
+For local development in the cargo.run profile the system property "application.properties" is set. It refers to the
+application.properties file in the conf folder.
+
+See ExampleDaemonModule for usage of the properties.
+
+
+
 Running Locally
 ===============
 
